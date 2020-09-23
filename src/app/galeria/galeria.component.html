@@ -1,0 +1,19 @@
+<div class="painel-apresentacao">
+    <div class="card-tema">
+       <!-- <img src="../../assets/ImagensSite/programacao.jpg">-->
+    </div>
+
+    <div class="artigo" (window:resize)="verificarTamanhoJanela()">
+        <br>
+        <h1> Galeria de Fotos </h1>
+        <h3> Fotos do dia tal </h3>
+        <br><br>
+
+        <div *ngFor="let item of imagensGaleria">
+            <img src="{{ item.caminhoPasta }}">
+
+        <br>
+        </div>
+
+    </div>
+</div>

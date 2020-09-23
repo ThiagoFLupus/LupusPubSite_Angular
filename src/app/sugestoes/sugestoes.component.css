@@ -1,0 +1,148 @@
+/***********  Smartphone de 640px a menor *************/
+@media(max-width: 680px){
+    .painel-apresentacao{
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .card-tema{
+        background: black;
+        font-size: x-large;
+        color: whitesmoke;
+        text-align: center;
+    }
+/*
+    .card-tema div{
+        position: relative;
+        bottom: -175px;
+        left: 10px;
+        font-size: x-large;
+        color: whitesmoke;
+    }*/
+
+    .artigo{
+        background: #5c4d44;
+        text-align: center;
+    }
+
+    .artigo div{
+        width: 90%;
+        margin-left: 4%;
+        border: 5px solid;
+        border-radius: 10px;
+    }
+
+    article{
+        width: 90%;
+        margin-left: 5%;
+        text-align: center;
+        padding-bottom: 30px;
+        font-family: cursive;
+    }
+
+    input{
+        border-radius: 5px;
+        height: 30px;
+        width: 80%;
+        min-width: 300px;
+    }
+
+    textarea{
+        border-radius: 5px;
+        height: 100px;
+        width: 80%;
+        min-width: 300px;
+    }
+
+    #btn-enviar{
+        background: cornflowerblue;
+        height: 50px;
+        width: 90%;
+        border-radius: 10px;
+    }
+
+    #btn-cancelar{
+        background: darkgoldenrod;
+        height: 50px;
+        width: 90%;
+        border-radius: 10px;
+    }
+}
+
+/********************  Desktops de 641px a maior *************************/
+
+@media(min-width: 681px){
+    .painel-apresentacao{
+        display: block;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .card-tema{
+        background: black;
+        font-size: x-large;
+        color: whitesmoke;
+        text-align: center;
+    }
+/*
+    .card-tema div{
+        position: relative;
+        bottom: -225px;
+        left: 20px;
+        font-size: x-large;
+        color: darkgray;
+    }*/
+
+    .artigo{
+        background: #5c4d44;
+        text-align: center;
+    }
+
+    .artigo div{
+        width: 90%;
+        margin-left: 4%;
+        border: 5px solid;
+        border-radius: 10px;
+    }
+
+    article{
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        padding-bottom: 30px;
+        font-size: large;
+        font-family: cursive;
+    }
+
+    input{
+        border-radius: 5px;
+        height: 30px;
+        width: 80%;
+    }
+
+    textarea{
+        border-radius: 5px;
+        height: 100px;
+        width: 80%;
+    }
+
+    button:hover{
+        cursor: pointer;
+    }
+
+    #btn-enviar{
+        background: cornflowerblue;
+        height: 50px;
+        width: 90%;
+        border-radius: 10px;
+    }
+
+    #btn-cancelar{
+        background: darkgoldenrod;
+        height: 50px;
+        width: 90%;
+        border-radius: 10px;
+    }
+
+}

@@ -1,0 +1,73 @@
+/***********  Smartphone de 640px a menor *************/
+@media(max-width: 680px){
+    .painel-apresentacao{
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .card-tema{
+        /*background: gray;*/
+        min-height: 200px;
+        background: url("../../assets/ImagensSite/programacao_recortada.png");
+    }
+
+    .card-tema div{
+        position: relative;
+        bottom: -175px;
+        left: 10px;
+        font-size: x-large;
+        color: whitesmoke;
+    }
+
+    .artigo{
+        background: #5c4d44;
+    }
+
+    article{
+        width: 90%;
+        margin-left: 5%;
+        text-align: center;
+        padding-bottom: 30px;
+        font-family: cursive;
+    }
+}
+
+/********************  Desktops de 641px a maior *************************/
+
+@media(min-width: 681px){
+    .painel-apresentacao{
+        display: block;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .card-tema{
+        background: gray;
+        min-height: 250px;
+        width: 100%;
+        background: url("../../assets/ImagensSite/programacao_recortada.png");
+    }
+
+    .card-tema div{
+        position: relative;
+        bottom: -225px;
+        left: 20px;
+        font-size: x-large;
+        color: whitesmoke;
+    }
+
+    .artigo{
+        background: #5c4d44;
+    }
+
+    article{
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        padding-bottom: 30px;
+        font-size: large;
+        font-family: cursive;
+    }
+
+}

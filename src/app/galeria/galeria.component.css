@@ -1,0 +1,108 @@
+/***********  Smartphone de 680px a menor *************/
+@media(max-width: 680px){
+    .painel-apresentacao{
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+        text-align: center !important;
+    }
+
+    .card-tema{
+        background: black;
+        min-height: 10px;
+    }
+/*
+    .card-tema img{
+        display: block;
+        max-height: 80px;
+        width: 100%;
+    }*/
+/*
+    .card-tema div{
+        position: relative;
+        bottom: -175px;
+        left: 10px;
+        font-size: x-large;
+        color: whitesmoke;
+    }
+*/
+    .artigo{
+        background: #5c4d44;
+        font-size: x-large;
+        color: whitesmoke;
+        font-family: cursive;
+        text-align: center;
+    }
+
+    .artigo div img{
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+    }
+/*
+    article{
+        width: 90%;
+        margin-left: 5%;
+        text-align: center;
+        padding-bottom: 30px;
+        font-family: cursive;
+    }*/
+
+}
+
+/********************  Desktops de 681px a maior *************************/
+
+@media(min-width: 681px){
+    .painel-apresentacao{
+        display: block;
+        width: 70%;
+        margin-left: 15%;
+        text-align: center !important;
+        background: #5c4d44;
+        font-size: x-large;
+        color: whitesmoke;
+    }
+/*
+    .card-tema{
+        background: gray;
+        min-height: 250px;
+        width: 100%;
+        background: url("../../assets/ImagensSite/rhino_painel_2.png");
+    }
+*/
+
+    .card-tema{
+        background: black;
+        min-height: 20px;
+    }
+ /*   
+    .card-tema img{
+        display: block;
+        max-height: 140px;
+        width: 100%;
+    }
+*/
+    .artigo{
+        background: #5c4d44;
+        font-size: x-large;
+        color: whitesmoke;
+        font-family: cursive;
+        text-align: center;
+    }
+/*
+    article{
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        padding-bottom: 30px;
+        font-size: large;
+        font-family: cursive;
+    }*/
+
+    .artigo div img{
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+}

@@ -1,0 +1,32 @@
+<div id="painel-base" #divisaoPainelBase>
+  <header  (window:resize)="eventoAlteracaoJanela()">
+    <img id="logo-mobile" src="../assets/ImagensSite/logo_2.jpg">
+    <button id="botao-menu" (click)="comportarMenu()" *ngIf="!menuFechado"> XP </button>
+    <button id="botao-fechar-menu" (click)="comportarMenu()" *ngIf="menuFechado"> X </button>
+    <nav *ngIf="menuFechado || desk">      
+        <ul>
+          <li routerLink="/home" (click)="fecharMenuSmart()"> O Pub </li>
+          <li routerLink="/programacao" (click)="fecharMenuSmart()"> Programação </li>
+          <!--<li routerLink="/comidas-bebidas" (click)="fecharMenuSmart()"> Comidas e Bebidas</li>-->
+          <li routerLink="/galeria" (click)="fecharMenuSmart()"> Galeria </li>
+          <li routerLink="/sugestoes" (click)="fecharMenuSmart()"> Reclamações e Sugestões </li>
+        </ul>
+    </nav>
+  </header>
+  
+  <div id="painel-redes-sociais">
+    <ul>
+      <li> <a href="#" class="circle-icons fa fa-instagram"></a> </li>
+      <li> <a href="#" class="circle-icons fa fa-facebook"></a> </li>
+      <li> <a href="#" class="circle-icons fa fa-twitter"></a> </li>
+    </ul>
+  </div>
+
+  <router-outlet style="text-align: center;"></router-outlet>
+</div>
+<!--
+<div id="em-construcao" #divisaoPaginaConstrucao>
+  <img id="img-construc" src="../assets/ImagensSite/pagina-em-construcao.png">
+  <button routerLink="/home"> Voltar à página inicial </button>
+</div>
+-->
