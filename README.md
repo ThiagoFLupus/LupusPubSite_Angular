@@ -1,2 +1,2 @@
 # LupusPubSite_Angular
- Site desenvolvido para LupusPub®. T
+ Site desenvolvido para LupusPub®.
